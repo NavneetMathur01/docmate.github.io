@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: aliceblue;
+}
+.Top_portion{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Top_portion:before {
+    content: '';
+    position: absolute;
+    background: rgb(231 217 146);
+    height: 2px;
+    width: 570px;
+    bottom: 25px;
+    margin-left: 925px;
+}
+.Logo{
+    padding-left: 12px;
+    padding-top: 40px;
+    font-family: 'Kalam', cursive;
+    font-size: 45px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding: 40px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(77, 28, 175);
+}
+.Navbar{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+.Main1:before {
+    content: '';
+    position: absolute;
+    background: rgb(231 217 146);
+    height: 2px;
+    width: 90%;
+    bottom: -100px;
+
+}
+.Main1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.Main2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.Main2:before {
+    content: '';
+    position: absolute;
+    background: rgb(222 220 206);
+    height: 2px;
+    width: 90%;
+    bottom: -82px;
+}
+.Main_text{
+    font-size: 60px;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 125px;
+}
+.Inside_Main1{
+    margin-top: 15px;
+    margin-left: 4px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+.Inside_Main2{
+    margin-top: 5px;
+    margin-left: 4px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+button{
+    position: relative;
+    transition: 0.5s;
+    letter-spacing: 0.1em;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    width: 136px;
+    border-radius: 8px;
+    margin-left: 11px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: beige;
+}
+button:hover{
+    cursor: pointer;
+    letter-spacing: 0.25em;
+}
+.Main_image{
+    /* margin-right: 50px; */
+    margin-top: 150px;
+    background-color: blueviolet;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.Img1{
+    width: 400px;
+    height: 400px;
+    margin-top: -100px;
+}
+.Heading2{
+    margin-top: 90px;
+    padding-top: 90px;
+    font-size: 60px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.Img2{
+    width: 400px;
+    height: 400px;
+    margin-top: -78px;
+}
+.Img3{
+        width: 416px;
+        height: 458px;
+        margin-top: -77px;
+}
+.End{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.end_img{
+    width: 30px;
+    height: 30px;
+}
